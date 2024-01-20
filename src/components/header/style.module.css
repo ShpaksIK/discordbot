@@ -23,6 +23,10 @@
     align-items: center
 }
 
+.header_logo > a {
+    text-decoration: none;
+}
+
 .header_logo_logo {
     display: flex;
     align-items: center;
@@ -74,8 +78,102 @@
 
 .header_burger {
     display: none;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 25%;
+    height: 100%;
+}
+
+.header_burger_spans {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25px;
+    cursor: pointer;
+}
+
+.header_burger_spans > span {
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.header_menu_block {
+    position: fixed;
+    bottom: calc(var(--headerHeight) - 100px);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 4;
+}
+
+.header_menu {
+    bottom: var(--headerHeight);
+    height: 100vh;
+    width: 300px;
+    background-color: #424549;
+    z-index: 5;
+}
+
+.header_menu_close {
+    width: 100%;
+    height: 50px;
+    background-color: #36393e;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_menu_close > img {
+    width: 35px;
+    cursor: pointer;
+}
+
+.header_menu_links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.header_menu_links > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 90%;
+    height: 50px;
+    background-color: #36393e;
+    border-radius: 5px;
+    border: 1px solid #404248;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.header_menu_links > a:hover {
+    background-color: #282b30;
+}
+
+.header_menu_links_svg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu_links_name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu_links_name > p {
+    width: 100%;
+}
+
+.header_menu_links_svg > img {
+    width: 25px;
 }
 
 
@@ -98,9 +196,21 @@
     }
     .header_login {
         width: 25%;
-        justify-content: flex-end;
+        justify-content: center;
+    }
+    .header_login > a {
+        padding: 5px 10px;
+    }
+    .header_logo {
+        justify-content: center;
     }
     .header_burger {
         display: flex;
     }
 }
+
+/* @media screen and (max-width: 550px) {
+    .header_menu {
+        width: 70%;
+    }
+} */

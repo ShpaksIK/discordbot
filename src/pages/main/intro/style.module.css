@@ -103,6 +103,8 @@
 }
 
 .intro_wave > .intro_wave1 {
+    position: relative;
+    top: 3px;
     z-index: 2;
 }
 
@@ -114,4 +116,62 @@
 
 .intro_wave > img {
     width: 100%;
+}
+
+
+@media screen and (max-width: 1120px) {
+    .intro_invite_img {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .intro_invite_img {
+        display: none;
+    }
+    .intro_invite {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+    }
+    .intro_invite_text {
+        width: 100%;
+    }
+    .intro_wave > .intro_wave2 {
+        bottom: 0px;
+    }
+    .intro_wave > .intro_wave1 {
+        z-index: 2;
+        position: relative;
+        top: 5px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .intro_invite_img {
+        display: none;
+    }
+    .intro_invite {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+    }
+    .intro_invite_text {
+        width: 100%;
+    }
+    .intro_invite_text > h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .intro_invite_text_buttons {
+        flex-direction: column;
+    }
+    .intro_invite_text {
+        justify-content: flex-start;
+        margin-top: 20%;
+    }
 }
