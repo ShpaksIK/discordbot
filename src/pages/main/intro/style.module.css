@@ -149,9 +149,6 @@
 }
 
 @media screen and (max-width: 585px) {
-    .intro_invite_img {
-        display: none;
-    }
     .intro_invite {
         display: flex;
         justify-content: center;

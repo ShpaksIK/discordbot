@@ -6,7 +6,9 @@ import closeSVG from './../../assets/svg/close.svg'
 import homeSVG from './../../assets/svg/home.svg'
 import docsSVG from './../../assets/svg/docs.svg'
 import commandSVG from './../../assets/svg/command.svg'
-import helpSVG from './../../assets/svg/help.svg'
+import logoutSVG from './../../assets/svg/logout.svg'
+import loginSVG from './../../assets/svg/login.svg'
+import { botName } from '../../api'
 
 
 function Header() {
@@ -15,6 +17,7 @@ function Header() {
     function clickToggleBurger() {
         toggleBurger()
     }
+    const isLogin = false
 
     return (
         <header>
@@ -32,8 +35,8 @@ function Header() {
                         <a href='#'>
                             <div className={style.header_logo_logo}>
                                 {/* <HandySvg src={botSVG} className="icon" width="32" height="32" /> */}
-                                <img src={botSVG} alt='TeamBot' />
-                                <p>TeamBot</p>
+                                <img src={botSVG} alt={botName} />
+                                <p>{botName}</p>
                             </div>
                         </a>
                     </div>
@@ -43,7 +46,12 @@ function Header() {
                         <a href='#'>Поддержите нас</a>
                     </div>
                     <div className={style.header_login}>
-                        <a href='#'>Войти</a>
+                        {isLogin === false && (
+                            <a href='#'>Войти</a>
+                        )}
+                        {isLogin === true && (
+                            <a href='#'>Аккаунт</a>
+                        )}
                     </div>
                 </div> 
             </div>
@@ -52,10 +60,11 @@ function Header() {
                 <div onClick={clickToggleBurger} className={style.header_menu_block}>
                     <div className={style.header_menu}>
                         <div className={style.header_menu_close} onClick={toggleBurger}>
+                            <p>Меню</p>
                             <img src={closeSVG} onClick={toggleBurger} />
                         </div>
                         <div className={style.header_menu_links}>
-                        <a href='#'>
+                            <a href='#'>
                                 <div className={style.header_menu_links_svg}>
                                     <img src={homeSVG} alt='Главная' />
                                 </div>
@@ -79,6 +88,25 @@ function Header() {
                                 </div>
                                 <div className={style.header_menu_links_name}><p>Поддержка</p></div>
                             </a>
+                            <div className={style.header_menu_line}></div>
+                            {isLogin === false && (
+                                <a href='#'>
+                                    <div className={style.header_menu_links_svg}>
+                                        <img src={loginSVG} alt='Войти' />
+                                    </div>
+                                    <div className={style.header_menu_links_name}><p>Войти</p></div>
+                                </a>
+                            )}
+                            {isLogin === true && (
+                                <div className={style.header_menu_down}>
+                                    <a className={style.header_menu_logout} href='#'>
+                                        <div className={style.header_menu_links_svg}>
+                                            <img src={logoutSVG} alt='Выйти' />
+                                        </div>
+                                        <div className={style.header_menu_links_name}><p>Выйти</p></div>
+                                    </a>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
