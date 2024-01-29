@@ -1,12 +1,20 @@
 import axios from 'axios'
-import React from 'react'
+import React, { useEffect } from 'react'
 import botSVG from './../../assets/img/bot.svg'
 import style from './style.module.css'
 function Header() {
-	async function getMe() {
-		const res = axios.get('http://localhost:8080/')
-		console.log(res)
-	}
+	useEffect(() => {
+		const queryParameters = new URLSearchParams(window.location.search)
+		const codeQuery = queryParameters.get('code')
+
+		axios({
+			url: 'http://localhost:8080/user/login/callback',
+			params: {
+				code: codeQuery,
+			},
+		})
+	})
+
 	return (
 		<div className={style.header}>
 			<div className={style.container}>
@@ -29,8 +37,8 @@ function Header() {
 					<a href='#'>Поддержите нас</a>
 				</div>
 				<div className={style.header_login}>
-					<a href='' onClick={getMe}>
-						Войти
+					<a href='https://discord.com/api/oauth2/authorize?client_id=1197185720020897922&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2F&scope=identify+guilds+gdm.join+email+guilds.join+connections'>
+						Вход
 					</a>
 				</div>
 				<button className='rt'>awd</button>

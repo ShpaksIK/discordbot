@@ -1,3 +1,8 @@
+:root {
+    --color-1-light: #578f83;
+    --color-1-dark: #496963;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,4 +41,11 @@ span {
 
 svg {
     position: relative;
+}
+
+
+@media screen and (max-width: 990px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
