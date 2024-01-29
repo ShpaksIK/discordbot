@@ -6,11 +6,8 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD:client/package.json
     "axios": "^1.6.5",
-=======
     "axios": "^1.6.7",
->>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76:package.json
     "handy-svg": "^1.0.8",
     "jquery": "^3.7.1",
     "query-string": "^8.1.0",
