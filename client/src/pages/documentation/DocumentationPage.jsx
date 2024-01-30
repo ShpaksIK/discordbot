@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React from 'react'
 
 import Header from '../../components/header/Header'
@@ -18,4 +19,26 @@ function DocumentationPage() {
     )
 }
 
+=======
+import React from 'react'
+
+import Header from '../../components/header/Header'
+import Footer from '../../components/footer/Footer'
+import Navbar from './navbar/Navbar'
+import DocMain from './docMain/DocMain'
+import style from './style.module.css'
+
+
+function DocumentationPage() {
+    return (
+        <div className={style.documentation}>
+            <Header typeMenu="doc" />
+            <Navbar />
+            <DocMain />
+            <Footer />
+        </div>
+    )
+}
+
+>>>>>>> Stashed changes
 export default DocumentationPage

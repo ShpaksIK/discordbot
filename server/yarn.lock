@@ -3,6 +3,12 @@
 
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+"@types/body-parser@*", "@types/body-parser@^1.19.5":
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.npmjs.org/@isaacs/cliui/-/cliui-8.0.2.tgz"
@@ -21,6 +27,10 @@
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
 "@types/body-parser@*":
+<<<<<<< Updated upstream
+=======
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
   version "1.19.5"
   resolved "https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.5.tgz"
   integrity sha512-fB3Zu92ucau0iQ0JMCFQE7b/dv8Ot07NI3KaZIkIUNXq82k4eBAqUaneXfleGY9JWskeS9y+u0nXMyspcuQrCg==
@@ -35,8 +45,16 @@
   dependencies:
     "@types/node" "*"
 
+<<<<<<< Updated upstream
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 "@types/cors@^2.8.17":
   version "2.8.17"
   resolved "https://registry.npmjs.org/@types/cors/-/cors-2.8.17.tgz"
@@ -46,9 +64,22 @@
 
 <<<<<<< HEAD
 "@types/express-serve-static-core@^4.17.33":
+<<<<<<< Updated upstream
   version "4.17.41"
   resolved "https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.41.tgz"
   integrity sha512-OaJ7XLaelTgrvlZD8/aa0vvvxZdUmlCn6MtWeB7TkiKW70BQLc9XEPpDLPdbo52ZhXUCrznlWdCHWxJWtdyajA==
+=======
+  version "4.17.42"
+  resolved "https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.42.tgz"
+  integrity sha512-ckM3jm2bf/MfB3+spLPWYPUH573plBFwpOhqQ2WottxYV85j1HQFlxmnTq57X1yHY9awZPig06hL/cLMgNWHIQ==
+=======
+<<<<<<< HEAD
+"@types/express-serve-static-core@^4.17.33":
+  version "4.17.41"
+  resolved "https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.41.tgz"
+  integrity sha512-OaJ7XLaelTgrvlZD8/aa0vvvxZdUmlCn6MtWeB7TkiKW70BQLc9XEPpDLPdbo52ZhXUCrznlWdCHWxJWtdyajA==
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
   dependencies:
     "@types/node" "*"
     "@types/qs" "*"
@@ -62,7 +93,15 @@
   dependencies:
     "@types/express" "*"
 
+<<<<<<< Updated upstream
 "@types/express@*":
+=======
+<<<<<<< HEAD
+"@types/express@*", "@types/express@^4.17.21":
+=======
+"@types/express@*":
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
   version "4.17.21"
   resolved "https://registry.npmjs.org/@types/express/-/express-4.17.21.tgz"
   integrity sha512-ejlPM315qwLpaQlQDTjPdsUFSc6ZsP4AN6AlWnogPjQ7CVi7PYF3YVz+CY3jE2pwYf7E/7HlDAN0rV2GxTG0HQ==
@@ -82,6 +121,11 @@
   resolved "https://registry.npmjs.org/@types/mime/-/mime-1.3.5.tgz"
   integrity sha512-/pyBZWSLD2n0dcHE3hq8s8ZvcETHtEuF+3E7XVt0Ig2nvsVQXdghHVcEkIWjy9A0wKfTn97a/PSDYohKIlnP/w==
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 "@types/node@*":
   version "20.11.5"
   resolved "https://registry.npmjs.org/@types/node/-/node-20.11.5.tgz"
@@ -129,6 +173,10 @@ Router@^2.1.0:
   integrity sha512-v0XXrQhWi3VXZGwNitB2t5ypx83gYGtwuLwD1UVGVWrYO20WTOQ8RbkMxh62Ol4D+w6oMlKkEmZyri+mUUhU/A==
 
 =======
+<<<<<<< Updated upstream
+=======
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 "@types/node@*":
   version "20.11.6"
   resolved "https://registry.npmjs.org/@types/node/-/node-20.11.6.tgz"
@@ -136,7 +184,73 @@ Router@^2.1.0:
   dependencies:
     undici-types "~5.26.4"
 
+<<<<<<< Updated upstream
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+"@types/oauth@*":
+  version "0.9.4"
+  resolved "https://registry.npmjs.org/@types/oauth/-/oauth-0.9.4.tgz"
+  integrity sha512-qk9orhti499fq5XxKCCEbd0OzdPZuancneyse3KtR+vgMiHRbh+mn8M4G6t64ob/Fg+GZGpa565MF/2dKWY32A==
+  dependencies:
+    "@types/node" "*"
+
+"@types/passport-discord@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.npmjs.org/@types/passport-discord/-/passport-discord-0.1.11.tgz"
+  integrity sha512-RK2nQlC16Utve5lmY3U+SRFg32de8IK4E22KZUWpME6KbfVq35vUXcHGA8OI+FumCeAGjiQIM5cAj38gspEOjQ==
+  dependencies:
+    "@types/express" "*"
+    "@types/passport" "*"
+    "@types/passport-oauth2" "*"
+
+"@types/passport-oauth2@*":
+  version "1.4.15"
+  resolved "https://registry.npmjs.org/@types/passport-oauth2/-/passport-oauth2-1.4.15.tgz"
+  integrity sha512-9cUTP/HStNSZmhxXGuRrBJfEWzIEJRub2eyJu3CvkA+8HAMc9W3aKdFhVq+Qz1hi42qn+GvSAnz3zwacDSYWpw==
+  dependencies:
+    "@types/express" "*"
+    "@types/oauth" "*"
+    "@types/passport" "*"
+
+"@types/passport@*", "@types/passport@^1.0.16":
+  version "1.0.16"
+  resolved "https://registry.npmjs.org/@types/passport/-/passport-1.0.16.tgz"
+  integrity sha512-FD0qD5hbPWQzaM0wHUnJ/T0BBCJBxCeemtnCwc/ThhTg3x9jfrAcRUmj5Dopza+MfFS9acTe3wk7rcVnRIp/0A==
+  dependencies:
+    "@types/express" "*"
+
+"@types/qs@*":
+  version "6.9.11"
+  resolved "https://registry.npmjs.org/@types/qs/-/qs-6.9.11.tgz"
+  integrity sha512-oGk0gmhnEJK4Yyk+oI7EfXsLayXatCWPHary1MtcmbAifkobT9cM9yutG/hZKIseOU0MqbIwQ/u2nn/Gb+ltuQ==
+
+"@types/range-parser@*":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.7.tgz"
+  integrity sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==
+
+"@types/send@*":
+  version "0.17.4"
+  resolved "https://registry.npmjs.org/@types/send/-/send-0.17.4.tgz"
+  integrity sha512-x2EM6TJOybec7c52BX0ZspPodMsQUd5L6PRwOunVyVUhXiBSKf3AezDL8Dgvgt5o0UfKNfuA0eMLr2wLT4AiBA==
+  dependencies:
+    "@types/mime" "^1"
+    "@types/node" "*"
+
+"@types/serve-static@*":
+  version "1.15.5"
+  resolved "https://registry.npmjs.org/@types/serve-static/-/serve-static-1.15.5.tgz"
+  integrity sha512-PDRk21MnK70hja/YF8AHfC7yIsiQHn1rcXx7ijCFBX/k+XQJhQT/gw3xekXKJvx+5SXaMMS8oqQy09Mzvz2TuQ==
+  dependencies:
+    "@types/http-errors" "*"
+    "@types/mime" "*"
+    "@types/node" "*"
+
+=======
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz"
@@ -191,6 +305,16 @@ array-flatten@1.1.1:
 <<<<<<< HEAD
 asynckit@^0.4.0:
   version "0.4.0"
+<<<<<<< Updated upstream
+=======
+  resolved "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
+  integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
+
+=======
+<<<<<<< HEAD
+asynckit@^0.4.0:
+  version "0.4.0"
+>>>>>>> Stashed changes
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
@@ -205,19 +329,37 @@ axios@^1.6.7:
 
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+<<<<<<< Updated upstream
+=======
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 base64url@3.x.x:
   version "3.0.1"
   resolved "https://registry.npmjs.org/base64url/-/base64url-3.0.1.tgz"
   integrity sha512-ir1UPr3dkwexU7FdV8qBBbNDRUhMmIekYMFZfi+C/sLNnRESKPl23nB9b2pltqfOQNnGzsDdId90AEtG5tCx4A==
 
+<<<<<<< Updated upstream
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 binary-extensions@^2.0.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz"
@@ -314,6 +456,14 @@ chokidar@^3.5.2:
     fsevents "~2.3.2"
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+combined-stream@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz"
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 color-convert@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
@@ -329,12 +479,24 @@ color-name@~1.1.4:
 combined-stream@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+<<<<<<< Updated upstream
+=======
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
   integrity sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
   dependencies:
     delayed-stream "~1.0.0"
 
+<<<<<<< Updated upstream
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
@@ -358,13 +520,27 @@ cookie-signature@1.0.6:
   integrity sha512-QADzlaHc8icV8I7vbaJXJwod9HWYp8uCqf1xa4OfNu1T7JVxQIrUgOWtHdNDtPiywmFbiS12VjotIXLrKM3orQ==
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 cookie@0.4.2:
   version "0.4.2"
   resolved "https://registry.npmjs.org/cookie/-/cookie-0.4.2.tgz"
   integrity sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==
 
+<<<<<<< Updated upstream
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 cookie@0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/cookie/-/cookie-0.5.0.tgz"
@@ -424,18 +600,39 @@ define-data-property@^1.1.1:
 <<<<<<< HEAD
 delayed-stream@~1.0.0:
   version "1.0.0"
+<<<<<<< Updated upstream
+=======
+  resolved "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz"
+  integrity sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==
+
+=======
+<<<<<<< HEAD
+delayed-stream@~1.0.0:
+  version "1.0.0"
+>>>>>>> Stashed changes
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==
 
 depd@2.0.0, depd@~2.0.0:
 =======
+<<<<<<< Updated upstream
+=======
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 denque@^2.1.0:
   version "2.1.0"
-  resolved "https://registry.yarnpkg.com/denque/-/denque-2.1.0.tgz#e93e1a6569fb5e66f16a3c2a2964617d349d6ab1"
+  resolved "https://registry.npmjs.org/denque/-/denque-2.1.0.tgz"
   integrity sha512-HVQE3AAb/pxF8fQAoiqpvg9i3evqug3hoiwakOyZAwJm+6vZehbkYXZ0l4JxS+I3QxM97v5aaRNhj8v5oBhekw==
 
+<<<<<<< HEAD
+depd@2.0.0, depd@~2.0.0:
+=======
 depd@2.0.0:
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+<<<<<<< Updated upstream
+=======
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
   version "2.0.0"
   resolved "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz"
   integrity sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
@@ -456,6 +653,19 @@ destroy@1.2.0:
   integrity sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+discord-passport@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/discord-passport/-/discord-passport-1.1.0.tgz"
+  integrity sha512-TQft2OMY6tYwRV2CRZl8SqYtTcO8AiSDI5BccsAdAvS9lEPB0aifCAgg2MaJF/ATt5WV252MJFOODIW8HDh+jg==
+  dependencies:
+    form-data "^4.0.0"
+    node-fetch "^2.6.1"
+
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 discord@^0.8.2:
   version "0.8.2"
   resolved "https://registry.npmjs.org/discord/-/discord-0.8.2.tgz"
@@ -478,6 +688,10 @@ eastasianwidth@^0.2.0:
 
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+<<<<<<< Updated upstream
+=======
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
@@ -512,6 +726,12 @@ etag@~1.8.1:
   integrity sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 express-session@^1.17.3:
   version "1.17.3"
   resolved "https://registry.npmjs.org/express-session/-/express-session-1.17.3.tgz"
@@ -526,8 +746,16 @@ express-session@^1.17.3:
     safe-buffer "5.2.1"
     uid-safe "~2.1.5"
 
+<<<<<<< Updated upstream
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 express@^4.18.2:
   version "4.18.2"
   resolved "https://registry.npmjs.org/express/-/express-4.18.2.tgz"
@@ -594,6 +822,14 @@ finalhandler@1.2.0:
     unpipe "~1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+form-data@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz"
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 follow-redirects@^1.15.4:
   version "1.15.5"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.5.tgz#54d4d6d062c0fa7d9d17feb008461550e3ba8020"
@@ -610,14 +846,26 @@ foreground-child@^3.1.0:
 form-data@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
+<<<<<<< Updated upstream
+=======
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
   integrity sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==
   dependencies:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
     mime-types "^2.1.12"
 
+<<<<<<< Updated upstream
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 forwarded@0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz"
@@ -642,7 +890,7 @@ function-bind@^1.1.2:
 =======
 generate-function@^2.3.1:
   version "2.3.1"
-  resolved "https://registry.yarnpkg.com/generate-function/-/generate-function-2.3.1.tgz#f069617690c10c868e73b8465746764f97c3479f"
+  resolved "https://registry.npmjs.org/generate-function/-/generate-function-2.3.1.tgz"
   integrity sha512-eeB5GfMNeevm/GRYq20ShmsaGcmI81kIX2K9XQx5miC8KdHaC6Jm0qQ8ZNeGOi7wYB8OsdxKs+Y2oVuTFuVwKQ==
   dependencies:
     is-property "^1.0.2"
@@ -737,7 +985,7 @@ iconv-lite@0.4.24:
 =======
 iconv-lite@^0.6.3:
   version "0.6.3"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
+  resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz"
   integrity sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==
   dependencies:
     safer-buffer ">= 2.1.2 < 3.0.0"
@@ -807,12 +1055,12 @@ jackspeak@^2.3.5:
 =======
 is-property@^1.0.2:
   version "1.0.2"
-  resolved "https://registry.yarnpkg.com/is-property/-/is-property-1.0.2.tgz#57fe1c4e48474edd65b09911f26b1cd4095dda84"
+  resolved "https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz"
   integrity sha512-Ks/IoX00TtClbGQr4TWXemAnktAQvYB7HzcCxDGqEZU6oCmb2INHuOoKxbtR+HFkmYWBKv/dOZtGRiAjDhj92g==
 
 long@^5.2.1:
   version "5.2.3"
-  resolved "https://registry.yarnpkg.com/long/-/long-5.2.3.tgz#a3ba97f3877cf1d778eccbcb048525ebb77499e1"
+  resolved "https://registry.npmjs.org/long/-/long-5.2.3.tgz"
   integrity sha512-lcHwpNoggQTObv5apGNCTdJrO69eHOZMi4BNC+rTLER8iHAqGrUVeLh/irVIM7zTw2bOXA8T6uNPeujwOLg/2Q==
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
 
@@ -831,12 +1079,12 @@ lru-cache@^6.0.0:
 =======
 lru-cache@^7.14.1:
   version "7.18.3"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.18.3.tgz#f793896e0fd0e954a59dfdd82f0773808df6aa89"
+  resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz"
   integrity sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==
 
 lru-cache@^8.0.0:
   version "8.0.5"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-8.0.5.tgz#983fe337f3e176667f8e567cfcce7cb064ea214e"
+  resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-8.0.5.tgz"
   integrity sha512-MhWWlVnuab1RG5/zMRRcVGXZLCXrZTgfwMikgzCegsPnG62yDQo5JnqKkrK4jO5iKqDAZGItAqN5CtKBCBWRUA==
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
 
@@ -863,8 +1111,17 @@ mime-db@1.52.0:
 <<<<<<< HEAD
 mime-types@^2.1.12, mime-types@~2.1.24, mime-types@~2.1.34:
 =======
+<<<<<<< Updated upstream
 mime-types@~2.1.24, mime-types@~2.1.34:
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+mime-types@^2.1.12, mime-types@~2.1.24, mime-types@~2.1.34:
+=======
+mime-types@~2.1.24, mime-types@~2.1.34:
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
   version "2.1.35"
   resolved "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz"
   integrity sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==
@@ -921,9 +1178,9 @@ ms@2.1.3:
 <<<<<<< HEAD
 =======
 mysql2@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-3.8.0.tgz#1bf7710da025f22e14a1ff5a4cad589f87f2f5d9"
-  integrity sha512-rC9J/Wy9TCaoQWhk/p4J0Jd+WCDYghniuawi7pheDqhQOEJyDfiWGiWOR3iPgTFJaOK3GezC7dmCki7cP1HFkQ==
+  version "3.9.0"
+  resolved "https://registry.npmjs.org/mysql2/-/mysql2-3.9.0.tgz"
+  integrity sha512-yS7FtbnO9sYqUZbjaiUwflh1bJAENJ3DQ9aHEYj9G+Hi15+FP7UKaTDNe6SeXx/LpkU6coAQ6vIYQaAmsFA+qQ==
   dependencies:
     denque "^2.1.0"
     generate-function "^2.3.1"
@@ -936,7 +1193,7 @@ mysql2@^3.8.0:
 
 named-placeholders@^1.1.3:
   version "1.1.3"
-  resolved "https://registry.yarnpkg.com/named-placeholders/-/named-placeholders-1.1.3.tgz#df595799a36654da55dda6152ba7a137ad1d9351"
+  resolved "https://registry.npmjs.org/named-placeholders/-/named-placeholders-1.1.3.tgz"
   integrity sha512-eLoBxg6wE/rZkJPhU/xRX1WTpkFEwDJEN96oxFrTsqBdbT5ec295Q+CoHrL9IT0DipqKhmGcaZmwOt8OON5x1w==
   dependencies:
     lru-cache "^7.14.1"
@@ -946,6 +1203,13 @@ negotiator@0.6.3:
   version "0.6.3"
   resolved "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
+
+node-fetch@^2.6.1:
+  version "2.7.0"
+  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz"
+  integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 nodemon@^3.0.3:
   version "3.0.3"
@@ -976,13 +1240,27 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 oauth@0.9.x:
   version "0.9.15"
   resolved "https://registry.npmjs.org/oauth/-/oauth-0.9.15.tgz"
   integrity sha512-a5ERWK1kh38ExDEfoO6qUHJb32rd7aYmPHuyCu3Fta/cnICvYmgd2uhuKXvPD+PXB+gCEYYEaQdIRAjCOwAKNA==
 
+<<<<<<< Updated upstream
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 object-assign@^4:
   version "4.1.1"
   resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
@@ -1001,19 +1279,39 @@ on-finished@2.4.1:
     ee-first "1.1.1"
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 on-headers@~1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/on-headers/-/on-headers-1.0.2.tgz"
   integrity sha512-pZAE+FJLoyITytdqK0U5s+FIpjN0JP3OzFi/u8Rx+EV5/W+JTWGXG8xFzevE7AjBfDqHv/8vL8qQsIhHnqRkrA==
 
+<<<<<<< Updated upstream
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 parseurl@~1.3.3:
   version "1.3.3"
   resolved "https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz"
   integrity sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 passport-discord@^0.1.4:
   version "0.1.4"
   resolved "https://registry.npmjs.org/passport-discord/-/passport-discord-0.1.4.tgz"
@@ -1046,6 +1344,11 @@ passport@^0.7.0:
     pause "0.0.1"
     utils-merge "^1.0.1"
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 path-key@^3.1.0:
   version "3.1.1"
   resolved "https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz"
@@ -1061,19 +1364,37 @@ path-scurry@^1.10.1:
 
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+<<<<<<< Updated upstream
+=======
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz"
   integrity sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 pause@0.0.1:
   version "0.0.1"
   resolved "https://registry.npmjs.org/pause/-/pause-0.0.1.tgz"
   integrity sha512-KG8UEiEVkR3wGEb4m5yZkVCzigAD+cVEJck2CzYZO37ZGJfctvVptVO192MwrtPhzONn6go8ylnOdMhKqi4nfg==
 
+<<<<<<< Updated upstream
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 picomatch@^2.0.4, picomatch@^2.2.1:
   version "2.3.1"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
@@ -1122,6 +1443,14 @@ query-string@^8.1.0:
     filter-obj "^5.1.0"
     split-on-first "^3.0.0"
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+<<<<<<< Updated upstream
+=======
+
+random-bytes@~1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/random-bytes/-/random-bytes-1.0.0.tgz"
+  integrity sha512-iv7LhNVO047HzYR3InF6pUcUsPQiHTM1Qal51DcGSuZFBil1aBBWG5eHPNek7bvILMaYJ/8RU1e8w1AMdHmLQQ==
+>>>>>>> Stashed changes
 
 range-parser@~1.2.1:
   version "1.2.1"
@@ -1199,7 +1528,7 @@ send@0.18.0:
 =======
 seq-queue@^0.0.5:
   version "0.0.5"
-  resolved "https://registry.yarnpkg.com/seq-queue/-/seq-queue-0.0.5.tgz#d56812e1c017a6e4e7c3e3a37a1da6d78dd3c93e"
+  resolved "https://registry.npmjs.org/seq-queue/-/seq-queue-0.0.5.tgz"
   integrity sha512-hr3Wtp/GZIc/6DAGPDcV4/9WoZhjrkXsi5B/07QgX8tsdc6ilr7BFM6PM6rbdAX1kFSDYeZGLipIZZKyQP0O5Q==
 
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
@@ -1277,7 +1606,7 @@ split-on-first@^3.0.0:
 
 sqlstring@^2.3.2:
   version "2.3.3"
-  resolved "https://registry.yarnpkg.com/sqlstring/-/sqlstring-2.3.3.tgz#2ddc21f03bce2c387ed60680e739922c65751d0c"
+  resolved "https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.3.tgz"
   integrity sha512-qC9iz2FlN7DQl3+wjwn3802RTyjCx7sDvfQEXchwa6CWOx07/WVfh91gBmQ9fahw8snwGEWU3xGzOt4tFyHLxg==
 
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
@@ -1354,13 +1683,27 @@ touch@^3.1.0:
   dependencies:
     nopt "~1.0.10"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
+  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
 tsc@^2.0.4:
   version "2.0.4"
 <<<<<<< HEAD
   resolved "https://registry.yarnpkg.com/tsc/-/tsc-2.0.4.tgz#5f6499146abea5dca4420b451fa4f2f9345238f5"
 =======
+<<<<<<< Updated upstream
   resolved "https://registry.npmjs.org/tsc/-/tsc-2.0.4.tgz"
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+  resolved "https://registry.yarnpkg.com/tsc/-/tsc-2.0.4.tgz#5f6499146abea5dca4420b451fa4f2f9345238f5"
+=======
+  resolved "https://registry.npmjs.org/tsc/-/tsc-2.0.4.tgz"
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
   integrity sha512-fzoSieZI5KKJVBYGvwbVZs/J5za84f2lSTLPYf6AGiIf43tZ3GNrI1QzTLcjtyDDP4aLxd46RTZq1nQxe7+k5Q==
 
 type-is@~1.6.18:
@@ -1390,10 +1733,34 @@ uid2@0.0.x:
   integrity sha512-IevTus0SbGwQzYh3+fRsAMTVVPOoIVufzacXcHPmdlle1jUpq7BRL+mw3dgeLanvGZdwwbWhRV6XrcFNdBmjWA==
 
 =======
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"
+  integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
+
+uid-safe@~2.1.5:
+  version "2.1.5"
+  resolved "https://registry.npmjs.org/uid-safe/-/uid-safe-2.1.5.tgz"
+  integrity sha512-KPHm4VL5dDXKz01UuEd88Df+KzynaohSL9fBh096KWAxSKZQDI2uBrVqtvRM4rwrIrRRKsdLNML/lnaaVSRioA==
+  dependencies:
+    random-bytes "~1.0.0"
+
+uid2@0.0.x:
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/uid2/-/uid2-0.0.4.tgz"
+  integrity sha512-IevTus0SbGwQzYh3+fRsAMTVVPOoIVufzacXcHPmdlle1jUpq7BRL+mw3dgeLanvGZdwwbWhRV6XrcFNdBmjWA==
+
+=======
+>>>>>>> Stashed changes
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz"
   integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
 
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+<<<<<<< Updated upstream
+=======
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 undefsafe@^2.0.5:
   version "2.0.5"
   resolved "https://registry.npmjs.org/undefsafe/-/undefsafe-2.0.5.tgz"
@@ -1412,8 +1779,17 @@ unpipe@1.0.0, unpipe@~1.0.0:
 <<<<<<< HEAD
 utils-merge@1.0.1, utils-merge@1.x.x, utils-merge@^1.0.1:
 =======
+<<<<<<< Updated upstream
 utils-merge@1.0.1:
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+=======
+<<<<<<< HEAD
+utils-merge@1.0.1, utils-merge@1.x.x, utils-merge@^1.0.1:
+=======
+utils-merge@1.0.1:
+>>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
   version "1.0.1"
   resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
@@ -1424,6 +1800,24 @@ vary@^1, vary@~1.1.2:
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
+  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz"
+  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
+
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 which@^2.0.1:
   version "2.0.2"
   resolved "https://registry.npmjs.org/which/-/which-2.0.2.tgz"
@@ -1451,6 +1845,10 @@ wrap-ansi@^8.1.0:
 
 =======
 >>>>>>> f0cdc09f8700a3f25284c72f3275f981fd5b5a76
+<<<<<<< Updated upstream
+=======
+>>>>>>> f79a399b9ce5e18b2293cf50b1dda47034d9f6bc
+>>>>>>> Stashed changes
 yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
