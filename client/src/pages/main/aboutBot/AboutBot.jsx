@@ -254,10 +254,6 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 import style from './style.module.css'
-import { ReactComponent as WaveEnd1 } from './../../../assets/svg/waveEnd1.svg'
-import { ReactComponent as WaveEnd2 } from './../../../assets/svg/waveEnd2.svg'
-import test from './../../../assets/img/test.jpg'
-import { botName } from '../../../api'
 
 
 const titleAnimation = {
@@ -286,6 +282,7 @@ const textAnimation = {
 
 function AboutBot() {
     return (
+<<<<<<< HEAD
         <main>
             <div className={style.about}>
                 <motion.div 
@@ -389,6 +386,11 @@ function AboutBot() {
                 <WaveEnd2 className={style.about_wave2} />
             </div>
         </main>
+=======
+        <div className={style.about}>
+            <p>About</p>
+        </div>
+>>>>>>> parent of fd34e6f (Получение информации о пользователе)
     )
 }
 

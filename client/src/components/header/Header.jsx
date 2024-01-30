@@ -212,6 +212,7 @@ export default Header
 =======
 <<<<<<< HEAD
 import axios from 'axios'
+<<<<<<< HEAD
 import React, { useState } from 'react'
 import { botName } from '../../api'
 import botSVG from '../../assets/svg/bot.svg'
@@ -251,6 +252,16 @@ function Header() {
 	}
 	const isLogin = false
 
+=======
+import React from 'react'
+import botSVG from './../../assets/img/bot.svg'
+import style from './style.module.css'
+function Header() {
+	async function getMe() {
+		const res = axios.get('http://localhost:8080/')
+		console.log(res)
+	}
+>>>>>>> parent of fd34e6f (Получение информации о пользователе)
 	return (
 		<header>
 			<div className={style.header}>
@@ -358,8 +369,24 @@ function Header() {
 						</div>
 					</div>
 				</div>
+<<<<<<< HEAD
 			)}
 		</header>
+=======
+				<div className={style.header_links}>
+					<a href='#'>Документация</a>
+					<a href='#'>Команды</a>
+					<a href='#'>Поддержите нас</a>
+				</div>
+				<div className={style.header_login}>
+					<a href='' onClick={getMe}>
+						Войти
+					</a>
+				</div>
+				<button className='rt'>awd</button>
+			</div>
+		</div>
+>>>>>>> parent of fd34e6f (Получение информации о пользователе)
 	)
 }
 

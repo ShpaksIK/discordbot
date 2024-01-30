@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 :root {
     --color-1-light: #578f83;
@@ -65,6 +66,8 @@ svg {
     --color-a-dark: #a3a3a3;
 }
 
+=======
+>>>>>>> parent of fd34e6f (Получение информации о пользователе)
 * {
     margin: 0;
     padding: 0;
@@ -103,6 +106,7 @@ span {
 
 svg {
     position: relative;
+<<<<<<< HEAD
 }
 
 
@@ -111,4 +115,6 @@ svg {
         display: none;
     }
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of fd34e6f (Получение информации о пользователе)
 }

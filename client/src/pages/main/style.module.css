@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 .main {
     width: 100%;
 }
+=======
+.main {
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+>>>>>>> parent of fd34e6f (Получение информации о пользователе)
