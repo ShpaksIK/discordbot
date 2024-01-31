@@ -52,8 +52,9 @@ exports.userRoute.get('/login/callback', (req, res) => __awaiter(void 0, void 0,
                     'Content-Type': 'application/x-www-form-urlencoded',
                 },
             });
-            const getGuilds = yield axios_1.default.get('https://discord.com/users/guilds');
-            console.log(output.data, userinfo.data, refresh.data, getGuilds.data);
+            const getGuilds = 'https://cdn.discordapp.com/avatars/818222947898228786/2a0b776b533a44d56300ade1fc6e93f2.png';
+            console.log(output.data, userinfo.data, refresh.data);
+            res.send(getGuilds);
         }
     }
 }));

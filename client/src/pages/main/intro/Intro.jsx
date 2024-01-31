@@ -1,12 +1,12 @@
+import { motion } from 'framer-motion'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
 
-import style from './style.module.css'
+import { linkToInvite } from '../../../api'
 import botAvatar from './../../../assets/img/TeamBot.png'
 import { ReactComponent as Wave1 } from './../../../assets/svg/wave1.svg'
 import { ReactComponent as Wave2 } from './../../../assets/svg/wave2.svg'
-import { linkToInvite } from '../../../api'
+import style from './style.module.css'
 
 
 function Intro() {
