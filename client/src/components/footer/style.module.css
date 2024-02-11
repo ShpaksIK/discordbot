@@ -1,6 +1,7 @@
 footer {
     position: relative;
     z-index: 5;
+    top: -5px;
     width: 100%;
     padding: 50px 0 50px 0;
     background: hsla(214, 5%, 27%, 1);

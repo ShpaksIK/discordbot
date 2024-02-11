@@ -12,23 +12,25 @@ function Navbar() {
     }
 
     return (
-        <nav>
-            <div className={style.nav_links}>
-                <div className={style.nav_links_link}>
-                    <a href='#' onClick={() => handleTabClick('about')}>Общее</a>
+        <div>
+            <nav>
+                <div className={style.nav_links}>
+                    <div className={style.nav_links_link}>
+                        <a href='#' onClick={() => handleTabClick('about')}>Общее</a>
+                    </div>
+                    <div className={style.nav_links_link}>
+                        <a href='#' onClick={() => handleTabClick('commands')}>Команды</a>
+                    </div>
+                    <div className={style.nav_links_link}>
+                        <a href='#' onClick={() => handleTabClick('FAQ')}>FAQ</a>
+                    </div>
+                    <div className={style.nav_links_link}>
+                        <a href='#' onClick={() => handleTabClick('updates')}>Изменения</a>
+                    </div>
                 </div>
-                <div className={style.nav_links_link}>
-                    <a href='#' onClick={() => handleTabClick('invite')}>Добавление на сервер</a>
-                </div>
-                <div className={style.nav_links_link}>
-                    <a href='#' onClick={() => handleTabClick('commands')}>Команды</a>
-                </div>
-                <div className={style.nav_links_link}>
-                    <a href='#' onClick={() => handleTabClick('FAQ')}>FAQ</a>
-                </div>
-            </div>
+            </nav>
             <DocMain activeTab={activeTab} />
-        </nav>
+        </div>
     )
 }
 

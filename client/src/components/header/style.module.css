@@ -13,6 +13,8 @@
 .header {
     width: 100%;
     height: var(--headerHeight);
+    position: relative;
+    z-index: 1;
 }
 
 .header_logo {
@@ -117,6 +119,17 @@
     position: relative;
     top: 0;
     z-index: 5;
+    animation: burger 0.2s linear;
+}
+
+@keyframes burger
+{ 
+    0% {
+        transform: translateX(-300px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .header_menu_block_close {

@@ -12,7 +12,6 @@ function DocumentationPage() {
         <div className={style.documentation}>
             <Header typeMenu="doc" />
             <Navbar />
-            <DocMain />
             <Footer />
         </div>
     )

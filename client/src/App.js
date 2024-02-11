@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, useRoutes } from "react-router-
 import MainPage from './pages/main/MainPage'
 import DocumentationPage from './pages/documentation/DocumentationPage'
 import styleAll from './assets/style/styleAll.module.css'
+import './pages/main/intro/animation.css'
 
 
 const App = () => {

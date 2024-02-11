@@ -3,14 +3,14 @@ import React from 'react'
 import style from './style.module.css'
 
 
-function DocInvite() {
+function DocUpdates() {
     return (
-        <div className={style.docInvite}>
+        <div className={style.docUpdates}>
             <div className={style.container}>
-                <h3>Добавление на сервер</h3>
+                <h3>Все обновления бота</h3>
             </div>
         </div>
     )
 }
 
-export default DocInvite
+export default DocUpdates

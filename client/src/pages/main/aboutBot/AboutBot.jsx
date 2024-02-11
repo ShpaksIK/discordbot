@@ -36,12 +36,12 @@ function AboutBot() {
     return (
         <main>
             <div className={style.about}>
-                <motion.div 
-                initial="hidden"
-                whileInView="visible"
-                viewport={{amount: 0.2}}
-                className={style.container}>
-                    <div className={style.about_block + ' ' + style.about_block_start}>
+                <div className={style.container}>
+                    <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{amount: 0.2, once: true}}
+                    className={style.about_block + ' ' + style.about_block_start}>
                         <div className={style.about_block_left}>
                             <div className={style.about_block_left_text}>
                                 <b>Модерирование сервера</b>
@@ -62,9 +62,13 @@ function AboutBot() {
                         <div className={style.about_block_right}>
                             <img src={test} />
                         </div>
-                    </div>
+                    </motion.div>
 
-                    <div className={style.about_block + ' ' + style.about_block_wrap}>
+                    <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{amount: 0.2, once: true}}
+                    className={style.about_block + ' ' + style.about_block_wrap}>
                         <div className={style.about_block_left}>
                             <img src={test} />
                         </div>
@@ -85,9 +89,13 @@ function AboutBot() {
                                 >Узнать больше</motion.a>
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
 
-                    <div className={style.about_block}>
+                    <motion.div 
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{amount: 0.2, once: true}}
+                    className={style.about_block}>
                         <div className={style.about_block_left}>
                             <div className={style.about_block_left_text}>
                                 <b>Система аудита</b>
@@ -107,9 +115,13 @@ function AboutBot() {
                         <div className={style.about_block_right}>
                             <img src={test} />
                         </div>
-                    </div>
+                    </motion.div>
 
-                    <div className={style.about_block + ' ' + style.about_block_end + ' ' + style.about_block_wrap}>
+                    <motion.div 
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{amount: 0.2, once: true}}
+                    className={style.about_block + ' ' + style.about_block_end + ' ' + style.about_block_wrap}>
                         <div className={style.about_block_left}>
                             <img src={test} />
                         </div>
@@ -129,8 +141,8 @@ function AboutBot() {
                                 >Узнать больше</motion.a>
                             </div>
                         </div>
-                    </div>
-                </motion.div>
+                    </motion.div>
+                </div>
             </div>
             <div className={style.about_wave}>
                 <WaveEnd1 className={style.about_wave1} />

@@ -16,6 +16,11 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+    background-color: #1E2124;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }

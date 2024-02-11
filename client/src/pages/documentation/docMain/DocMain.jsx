@@ -2,7 +2,7 @@ import React from 'react'
 
 import DocAbout from './docBlocks/docAbout/DocAbout'
 import DocCommands from './docBlocks/docCommands/DocCommands'
-import DocInvite from './docBlocks/docInvite/DocInvite'
+import DocUpdates from './docBlocks/docUpdates/DocUpdates'
 import DocFAQ from './docBlocks/docFAQ/DocFAQ'
 import style from './style.module.css'
 
@@ -18,8 +18,8 @@ function DocMain({ activeTab }) {
             {currentDocBlock === "commands" && (
                 <DocCommands />
             )}
-            {currentDocBlock === "invite" && (
-                <DocInvite />
+            {currentDocBlock === "updates" && (
+                <DocUpdates />
             )}
             {currentDocBlock === "FAQ" && (
                 <DocFAQ />
