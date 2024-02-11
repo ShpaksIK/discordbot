@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { motion } from 'framer-motion'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { botName, linkToAuth } from '../../api'
 import FAQSVG from './../../assets/svg/FAQ.svg'
@@ -17,35 +17,31 @@ import style from './style.module.css'
 
 function Header({ typeMenu }) {
 	let userAvatar = ''
+	let flag = true
 	const getter = () => {
-		window.location = linkToAuth
-	}
-	const sendData = () => {
-		const queryParameters = new URLSearchParams(window.location.search)
-		const Rcode = queryParameters.get('code')
-		const res = axios.get('http://localhost:8080/user', {
-			params: {
-				code: Rcode,
-			},
+		window.location.assign(linkToAuth).then(res => {
+			next()
 		})
-		console.log(res)
 	}
+	const sendData = () => {}
 
-	useEffect(event => {
-		const queryParameters = new URLSearchParams(window.location.search)
-		const codeQuery = queryParameters.get('code')
+	function next() {
+		console.log('Awd')
+		if (flag === true) {
+			const queryParameters = new URLSearchParams(window.location.search)
+			const codeQuery = queryParameters.get('code')
 
-		axios({
-			url: 'http://localhost:8080/user/login/callback',
-			params: {
-				code: codeQuery,
-			},
-		}).then(res => {
-			console.log(res.data)
-			userAvatar = res.data
-			image()
-		})
-	})
+			let res = axios({
+				url: 'http://localhost:8080/user/login/callback',
+				params: {
+					code: codeQuery,
+				},
+			})
+			if (res) {
+				flag = false
+			}
+		}
+	}
 	const [haveImage, setImage] = useState('')
 	const image = () => {
 		setImage(userAvatar)
