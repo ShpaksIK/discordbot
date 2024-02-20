@@ -1,0 +1,39 @@
+nav {
+    width: 100%;
+    max-height: 3%;
+}
+
+.nav_links {
+    display: flex;
+    height: 100%;
+    margin: 0 10%;
+}
+
+.nav_links_link {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.nav_links_link:hover, .nav_links_link > a:hover {
+    background-color: #36393e;
+    color: #fff;
+}
+
+.nav_links_link > a {
+    padding: 0 10px;
+    color: #a3a3a3;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+
+@media screen and (max-width: 510px) {
+    nav {
+        display: none;
+    }
+}
