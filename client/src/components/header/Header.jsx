@@ -18,6 +18,8 @@ import FAQSVG from './../../assets/svg/FAQ.svg'
 import discordSVG from './../../assets/svg/discord.svg'
 import generalSVG from './../../assets/svg/general.svg'
 import { botName, linkToInvite, linkToAuth } from '../../api'
+import AuthService from "../../assets/services/authService"
+import Cookies from 'js-cookie';
 
 
 
@@ -57,8 +59,16 @@ function Header({ typeMenu }) {
 	// 	})
 	// })
     // const avatar = queryParams.get('avatar');
+    const [token, setToken] = useState()
+    function red() {
+        window.location.replace("http://localhost:8080/api/registration")
+    }
 
-    const isLogin = true
+    window.onload = () => {
+        const payload = axios.get('http://localhost:8080/api/getData')
+
+    }
+    const isLogin = false
     const [showDocMain, setShowDocMain] = useState(false)
     const [activeTab, setActiveTab] = useState("")
     const [isBurgerOpen, setIsBurgerOpen] = useState(false)
@@ -106,7 +116,7 @@ function Header({ typeMenu }) {
                     </div>
                     <div className={style.header_login}>
                         {isLogin === false && (
-                            <a href={linkToAuth}>Войти</a>
+                            <button onClick={red}>Войти</button>
                         )}
                         {isLogin === true && (
                             <Avatar />
