@@ -19,7 +19,7 @@ router.get('/callback', passport.authenticate('discord', {
 }))
 
 router.get("/successAuth", UserController.successAuth)
-
+router.get("/getData",  UserController.getData)
 
 module.exports = router
 

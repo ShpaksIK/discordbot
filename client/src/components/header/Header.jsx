@@ -20,6 +20,7 @@ import generalSVG from './../../assets/svg/general.svg'
 import { botName, linkToInvite, linkToAuth } from '../../api'
 import AuthService from "../../assets/services/authService"
 import Cookies from 'js-cookie';
+import $api from "../../assets/http";
 
 
 
@@ -65,8 +66,10 @@ function Header({ typeMenu }) {
     }
 
     window.onload = () => {
-        const payload = axios.get('http://localhost:8080/api/getData')
-
+        const token = Cookies.get("accessToken")
+        localStorage.setItem("accessToken", token)
+        const data= $api.get("http://localhost:8080/api/getData")
+        console.log(data)
     }
     const isLogin = false
     const [showDocMain, setShowDocMain] = useState(false)

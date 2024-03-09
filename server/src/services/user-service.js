@@ -4,7 +4,8 @@ class UserService {
         console.log(code)
     }
     async successAuth(user) {
-        console.log(user)
+
+        return user
         //User.create({username: user.username, icon: user.icon, email: user.email, guilds: user.guilds, refreshToken: user.refreshToken})
     }
 
