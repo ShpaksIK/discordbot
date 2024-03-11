@@ -1,16 +1,14 @@
-import axios from "axios";
-import Cookies from 'js-cookie';
+import axios from 'axios'
 
-export const API_URL = "http://localhost:8080/api/"
+export const API_URL = 'http://localhost:8080/api/'
 const $api = axios.create({
-    withCredentials: true,
-    baseURL: API_URL
+	withCredentials: true,
+	baseURL: API_URL,
 })
 
-$api.interceptors.request.use((config) => {
-
-    config.headers.Authorization = `Bearer}`
-    return config
+$api.interceptors.request.use(config => {
+	config.headers.Authorization = `Bearer}`
+	return config
 })
 
 export default $api
