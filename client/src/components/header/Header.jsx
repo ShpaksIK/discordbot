@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-
+import http from "../../assets/http/index"
 import DocMain from '../../pages/documentation/docMain/DocMain'
 import Avatar from '../avatar/Avatar'
 import style from './style.module.css'
@@ -20,54 +20,23 @@ import generalSVG from './../../assets/svg/general.svg'
 import { botName, linkToInvite, linkToAuth } from '../../api'
 import AuthService from "../../assets/services/authService"
 import Cookies from 'js-cookie';
+import TokenService from "../../assets/services/token-service";
+import $api from "../../assets/http/index";
 
 
 
 function Header({ typeMenu }) {
-    const getter = () => {
-		window.location = 'http://localhost:3000'
-	}
-	// const sendData = () => {
-	// 	const queryParameters = new URLSearchParams(window.location.search)
-	// 	const Rcode = queryParameters.get('code')
-	// 	axios
-	// 		.get('http://localhost:5000/user', {
-	// 			params: {
-	// 				code: Rcode,
-	// 			},
-	// 		})
-	// 		.then(res => {
-	// 			console.log('DATA IS SENDING')
-	// 		})
-	// 		.catch(err => {
-	// 			console.log(err)
-	// 		})
-    // }
-
-    // useEffect(() => {
-	// 	const queryParameters = new URLSearchParams(window.location.search)
-	// 	const codeQuery = queryParameters.get('code')
-    //     const queryParams = new URLSearchParams(window.location.search);
-    //     // const name = queryParams.get('data');
-    //     // console.log(name)
-        
-	// 	axios({
-	// 		url: 'http://localhost:5000/user/login/callback',
-	// 		params: {
-	// 			code: codeQuery
-	// 		},
-	// 	})
-	// })
-    // const avatar = queryParams.get('avatar');
-    const [token, setToken] = useState()
+    const [user, setUser] = useState({})
     function red() {
         window.location.replace("http://localhost:8080/api/registration")
     }
 
-    window.onload = () => {
-        const payload = axios.get('http://localhost:8080/api/getData')
+    useEffect(async () => {
+            const user = await $api.get("http://localhost:8080/api/getData")
+            console.log(user)
+    }, [])
 
-    }
+
     const isLogin = false
     const [showDocMain, setShowDocMain] = useState(false)
     const [activeTab, setActiveTab] = useState("")

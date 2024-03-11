@@ -2,6 +2,10 @@ const db = require("../cfg/db/db-conn")
 const {DataTypes, STRING} = require("sequelize")
 
 const User = db.define('user', {
+    discordId: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
     username: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -14,13 +18,14 @@ const User = db.define('user', {
     },
     icon: {
         type: DataTypes.STRING,
-    },
-    guilds: {
-        type: DataTypes.ARRAY(DataTypes.STRING)
+        allowNull: false
     },
     refreshToken: {
-        type: DataTypes.STRING
+        type: DataTypes.STRING,
+        allowNull: false
     },
+
+
 
 
 })

@@ -1,4 +1,6 @@
 import axios from "axios";
+import Cookies from 'js-cookie';
+
 export const API_URL = "http://localhost:8080/api/"
 const $api = axios.create({
     withCredentials: true,
@@ -6,7 +8,8 @@ const $api = axios.create({
 })
 
 $api.interceptors.request.use((config) => {
-    config.headers.Authorization = `Bearer ${localStorage.getItem('token')}`
+
+    config.headers.Authorization = `Bearer}`
     return config
 })
 

@@ -1,6 +1,7 @@
 const {logger} = require("sequelize/lib/utils/logger");
 const {cookie} = require("express/lib/response");
 const User = require("../models/user-model")
+const UserDTO = require("../dto/user-dto");
 var DiscordStrategy = require('passport-discord').Strategy;
 var scopes = ['identify', 'email', 'guilds'];
 require("dotenv").config()
@@ -11,9 +12,18 @@ let discord = new DiscordStrategy({
         callbackURL: process.env.URL_REDIRECT,
         scope: scopes
     },
-    function(accessToken, refreshToken, profile, cb) {
+    async function (accessToken, refreshToken, profile, cb){
+        try {
+            const user =  UserDTO.getUserDto(profile, refreshToken, accessToken)
+            const newUser = await User.create({
+                ...user
+            })
 
-        return cb(null, profile)
+            return cb(null, newUser)
+        } catch (e) {
+            console.log(e)
+        }
+
     });
 
 module.exports = discord

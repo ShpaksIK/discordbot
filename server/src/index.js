@@ -33,7 +33,8 @@ app.use("/api", router)
 
 
 try {
-    ///db.sync().then(bob => {
+    db.sync()
+    db.authenticate()
 
     //db.authenticate().then((awd) => {
     //     console.log(awd)
