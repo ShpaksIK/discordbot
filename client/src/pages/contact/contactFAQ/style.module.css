@@ -1,0 +1,37 @@
+.contFAQ {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.container {
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > h2 {
+    color: #000;
+    font-size: 35px;
+}
+
+.contFAQ_link_div {
+    margin-top: 30px;
+}
+
+.contFAQ_link {
+    max-width: 200px;
+    padding: 10px;
+    background-color: #578f83;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #496963;
+    transition: 0.2s;
+}
+
+.contFAQ_link:hover {
+    background-color: #496963;
+}
