@@ -1,0 +1,130 @@
+.main {
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    min-height: 50vh;
+    padding-bottom: 150px;
+}
+
+.container {
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container > h1 {
+    color: #000;
+}
+
+.text_input {
+    color: #578f83;
+    background-color: #fff;
+    font-size: 14px;
+    width: 100%;
+}
+
+.text_afterInput {
+    color: #808387;
+    font-size: 14px;
+    width: 100%;
+}
+
+.sBlock_main {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sBlock_main_input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.sBlock_main_input > input {
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid var(--color-2-light);
+    padding: 0 5px;
+    color: #000;
+    font-size: 16px;
+}
+
+
+.sBlock_main_checkbox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sBlock_main_checkbox > p {
+    color: #000;
+    width: 100%;
+}
+
+.sBlock_main_checkbox > input {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.sBlock_main_input > textarea {
+    resize: vertical;
+    color: #000;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid var(--color-2-light);
+}
+
+.text_afterTextarea { 
+    margin-top: 10px;
+    width: 100%;
+}
+
+.text_afterTextarea > b {
+    color: var(--color-2-light);
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.text_afterTextarea > p {
+    color: #000;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.text_afterTextarea > p > span {
+    color: #578f83;
+    font-weight: 700;
+}
+
+.sBlock_main_radio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sBlock_main_radio_r {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sBlock_main_radio_r > input {
+    width: 25px;
+    height: 25px;
+}
+
+.sBlock_main_radio_r > p {
+    color: #000;
+}
