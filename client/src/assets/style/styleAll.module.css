@@ -1,0 +1,96 @@
+/* 
+Style Site:
+
+h1 { font-size: 45px; }
+h2 { font-size: 40px; }
+p, a { font-size: 16px; }
+
+Border radius for buttons: 5px
+Border radius for blocks: 10px
+
+Background color: #fff, rgb(248, 248, 248)
+Colors Header, Footer: #424549
+Colors of decorative blocks: #578f83 (light), #496963 (dark)
+
+Style for buttons (light):
+    border-radius: 5px;
+    background-color: #578f83;
+    color: #fff;
+    ...
+
+Style for shadows:
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(80, 93, 103, 0.2);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(80, 93, 103, 0.2);
+    box-shadow: 0px 5px 10px 0px rgba(80, 93, 103, 0.2);
+
+Margin of containers: 15%
+Min margin: 5%
+
+Padding of containers: 0px 50px
+
+Ordinary gap between blocks: 10px
+Max gap between blocks: 20px
+
+*/
+
+:root {
+    --color-1-light: #578f83;
+    --color-1-dark: #496963;
+
+    --color-2-light: #424549;
+    --color-2-dark: #36393e;
+
+    --color-a-dark: #a3a3a3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #1E2124;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #424549; 
+    background-color: #424549;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #578f83; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #496963; 
+}
+
+span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    background-color: #424549;
+}
+
+svg {
+    position: relative;
+}
+
+
+@media screen and (max-width: 990px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}

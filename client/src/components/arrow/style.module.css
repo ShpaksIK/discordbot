@@ -1,0 +1,12 @@
+.faq_block_open {
+    width: 25px;
+    height: 25px;
+    margin-right: 5%;
+    background-color: #496963;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.faq_block_open > img {
+    width: 25px;
+}

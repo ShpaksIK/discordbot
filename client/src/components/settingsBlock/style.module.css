@@ -1,0 +1,32 @@
+.sBlock {
+    width: 500px;
+    position: relative;
+    top: 50px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(80, 93, 103, 0.2);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(80, 93, 103, 0.2);
+    box-shadow: 0px 5px 10px 0px rgba(80, 93, 103, 0.2);
+    border-radius: 10px;
+}
+
+.sBlock_title {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.sBlock_title > p {
+    color: #424549;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 550px) {
+    .sBlock {
+        min-width: 300px;
+        width: 300px;
+    }
+}

@@ -1,0 +1,39 @@
+.invite_warning {
+    margin-top: 20px;
+    width: 50%;
+    border: 1px solid #ff9100;
+    border-radius: 5px;
+}
+
+.invite_warning_title {
+    padding: 5px;
+    width: 100%;
+    background-color: rgba(255, 145, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.invite_warning_title > img {
+    width: 25px;
+}
+
+.invite_warning_title > p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.invite_warning_text > p {
+    padding: 10px;
+    width: 100%;
+    color: #000;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 750px) {
+    .invite_warning {
+        width: 100%;
+    }
+}
